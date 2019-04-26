@@ -1,0 +1,115 @@
+
+<link href="https://fonts.googleapis.com/css?family=Lora:400,700|Noto+Serif+TC:200,300,400" rel="stylesheet">
+
+body {
+    background-color: black;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    font-weight: lighter;
+    margin:
+}
+
+html {
+  background: #F4F3F6;
+}
+
+
+h1 {
+    color: #8E4162;
+    font-family: 'Lora', serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+a {
+    font-family: 'Noto Serif TC', serif;
+    text-decoration: none;
+    color: #8E4162;
+    font-weight: 400;
+    font-size: 20px;
+}
+a:hover {
+    color: #B7B5B3;
+}
+
+.card{
+    background-color: #B7B5B3;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0.2,0.2,0.2,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+#introduction p {
+    margin-bottom: 50px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.5;
+    color: #7A7265;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+
+.btn-blue {
+    background-color: #8E4162;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover {
+  color: #B7B5B3;
+
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+    color: #8E4162
+}
+.list-inline li {
+  display: inline-block;
+  padding: 15px;
+
+}
+
+h2 {
+    color: #8E4162;
+    font-size: 30px;
+    font-weight: lighter;
+    font-weight: 500;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
